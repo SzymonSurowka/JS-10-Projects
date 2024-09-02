@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program do edycji grafiki</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <button class="btn-scroller">Przejdź do sekcji</button>
+    <div class="range-bars">
+        <label for="">Jasność
+            <input type="range" id="brightness-bar" class="bar" min="0" max="200" value="100">
+        </label>
+        <label for="">Kontrast
+            <input type="range" id="contrast-bar" class="bar" min="0" max="200" value="100">
+        </label>
+        <label for="">Nasycenie
+            <input type="range" id="saturation-bar" class="bar" min="0" max="200" value="100">
+        </label>
+        <label for="">Odcień
+            <input type="range" id="hue-bar" class="bar" min="0" max="360" value="0">
+        </label>
+        <label for="">Rozmycie
+            <input type="range" id="blur-bar" class="bar" min="0" max="10" value="0">
+        </label>
+
+    </div>
+    <img src="dog.jpg" alt="dog" id="example-image" class="example-image">
+    <section class="example-section">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa obcaecati,
+        repellat vero iusto dolorem laudantium placeat at accusantium quis architecto et, earum possimus! Perspiciatis
+        consectetur omnis pariatur laboriosam nostrum?</section>
+</body>
+
+</html>
